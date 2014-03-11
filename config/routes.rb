@@ -1,4 +1,6 @@
 Writing::Application.routes.draw do
+
+  get "editor", to: "main#editor"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

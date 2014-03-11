@@ -6,6 +6,11 @@ gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+#添加slim支持，详细看 http://rubydoc.info/github/slim-template/slim/master/frames
+gem "slim", "~> 2.0.2"
+gem "slim-rails", "~> 2.1.2"
+
+gem "rack-livereload", "~> 0.3.15"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
