@@ -20,6 +20,13 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
+#The purpose of Bourbon Vanilla Sass Mixins is to provide 
+#a comprehensive framework of sass mixins that are designed to be as vanilla as possible.
+gem "bourbon", "~> 3.1.8"
+
+#Font Awesome, SASS version, with assets pipeline, for Rails 3.1+
+gem "font-awesome-sass-rails", "~> 3.0.2.2"
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
